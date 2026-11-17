@@ -35,6 +35,7 @@ body {
     width: 100%;
     min-height: 100vh;
     background: #fff;
+    gap: 14px;
 }
 
 
@@ -45,8 +46,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 14px;
-    padding-left: 3%;
-    padding-right: 3%;
     height: fit-content
 }
 
@@ -76,6 +75,7 @@ body {
     align-items: flex-start;
     gap: 14px;
     width: 100%;
+    padding-bottom: 6%;
 }
 
 .div3 .div4 video {
@@ -95,6 +95,9 @@ body {
 }
 
 .div5 {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-bottom: 6%;
     width: 100%;
 }
 
@@ -110,7 +113,23 @@ body {
     display: block;
     flex: 1 1 0;
     min-width: 0;
-    width: calc((100% - 14px) / 2);
+    width: calc((25% - 14px) / 4);
+    height: auto;
+    object-fit: contain;
+}
+
+.social-media {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    width: 50%;
+}
+
+.social-media img {
+    max-height: 10%;
+    display: block;
+    flex: 1 0 0;
+    min-width: 0;
     height: auto;
     object-fit: contain;
 }
