@@ -62,14 +62,28 @@
         
         .project-back {
             position: fixed;
-            left: 34px;
-            bottom: 24px;
+            left: 24px;
+            top: -6px;
             z-index: 1000;
         }
         
         .project-back img {
             display: block;
-            width: 88px;
-            height: 88px;
+            width: 118px;
+            height: 118px;
+            object-fit: contain;
+        }
+        
+        .scroll {
+            position: fixed;
+            right: 34px;
+            bottom: 24px;
+            z-index: 1000;
+        }
+        
+        .scroll img {
+            display: block;
+            width: 58px;
+            height: 58px;
             object-fit: contain;
         }
