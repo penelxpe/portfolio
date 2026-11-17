@@ -79,7 +79,7 @@ video::-webkit-media-controls-overlay-play-button {
 }
 
 .background-video {
-    cursor: url("/material/icons/arrow.png"), auto;
+    cursor: url("../portfolio_penelope_perret/material/icons/arrow.png"), auto;
     position: absolute;
     inset: 0;
     width: 100%;
