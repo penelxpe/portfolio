@@ -55,18 +55,20 @@
         height: 300px;
         transform: scale(1.05);
         transition: transform 0.4s ease;
-        cursor: url('/docs/portfolio_penelope_perret/material/main_material/icons/cursor_hover.png'), auto;
+    }
+
+    .item:hover,
+    .item:hover * {
+        cursor: url('portfolio_penelope_perret/material/icons/cursor_hover.png') 0 0, auto;
     }
     
     .hover-text {
-        cursor: url('/docs/portfolio_penelope_perret/material/main_material/icons/cursor_hover.png'), auto;
         font-size: 1.9rem;
         display: none;
         color: rgb(195, 195, 195);
     }
     
     .default-text {
-        cursor: url('/docs/portfolio_penelope_perret/material/main_material/icons/cursor_hover.png'), auto;
         display: block;
         margin: 3% auto;
         border-radius: 50px;
@@ -75,17 +77,14 @@
     }
     
     .item:hover .default-text {
-        cursor: url('/docs/portfolio_penelope_perret/material/main_material/icons/cursor_hover.png'), auto;
         display: block;
     }
     
     .item:hover .hover-text {
-        cursor: url('/docs/portfolio_penelope_perret/material/main_material/icons/cursor_hover.png'), auto;
         display: block;
     }
     
     .background-video {
-        cursor: url('/docs/portfolio_penelope_perret/material/main_material/icons/cursor_hover.png'), auto;
         position: absolute;
         inset: 0;
         width: 100%;
@@ -98,7 +97,6 @@
     }
     
     .item:hover .background-video {
-        cursor: url('/docs/portfolio_penelope_perret/material/main_material/icons/cursor_hover.png'), auto;
         transition: opacity 0.4s ease;
         opacity: 1;
     }
@@ -108,7 +106,6 @@
     }
     
     .hover-video {
-        cursor: url('/docs/portfolio_penelope_perret/material/main_material/icons/cursor_hover.png'), auto;
         position: absolute;
         top: 0;
         left: 1.5%;
@@ -133,8 +130,4 @@
     
     * {
         cursor: auto;
-    }
-    
-    .item invasive:hover {
-        cursor: url('/docs/portfolio_penelope_perret/material/main_material/icons/cursor_hover.png'), auto;
     }
