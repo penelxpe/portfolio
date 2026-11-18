@@ -19,6 +19,11 @@ body {
     overflow: hidden;
 }
 
+.video-section:hover,
+.video-section:hover * {
+    cursor: url("../material/icons/cursor_hover.png") 0 0, auto;
+}
+
 .video-section video {
     position: absolute;
     inset: 0;
